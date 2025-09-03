@@ -1,0 +1,72 @@
+.subscribe-button {
+  background-color: rgb(208, 7, 7);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-left: 10px;
+  transition: opacity 0.5s;
+  vertical-align: top;
+}
+
+.subscribe-button:hover {
+  /* background-color: rgb(255, 7, 7); */
+  opacity: 0.7;
+}
+
+.subscribe-button:active {
+  /* background-color: blue; */
+  opacity: 0.5;
+}
+
+.join {
+  background-color: white;
+  border-color: rgb(16, 38, 237);
+  border-style: solid;
+  color: rgb(16, 38, 237);
+  border-radius: 2px;
+  border-width: 1px;
+  cursor: pointer;
+  margin-right: 4px;
+  transition: background-color 0.5s;
+  padding-top: 09px;
+  padding-bottom: 09px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 3px;
+}
+
+.join:hover {
+  background-color: rgb(16, 38, 237);
+  color: white;
+}
+
+.join:active {
+  opacity: 0.7;
+}
+
+.x {
+  background-color: rgb(16, 189, 237);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: box-shadow 0.7s;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.x:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
